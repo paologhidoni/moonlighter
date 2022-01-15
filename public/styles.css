@@ -65,10 +65,6 @@ input, textarea {
   max-width: 200px;
 }
 
-.post__delete-btn {
-  margin-left: 100%;
-}
-
 .post__message {
   padding: 0.5rem;
 }

@@ -28,33 +28,34 @@ I am building a microblogging app as exercise to learn Node.js and Express.js
 ## Goals / issues
 
 - [X] Home page to read the posts
-- [ ] Functionality to add a post
-- [ ] Functionality to delete a post
+- [x] Functionality to add a post
+- [x] Functionality to delete a post
 - [ ] Responsive, mobile-first design
 - [ ] 100 Accessibility score on lighthouse
-- [ ] Testing for every route and main features of the blog
+- [x] Testing for every route and main features of the blog
 - [ ] The app must be secure
 - [ ] The app must have a 404 page
-- [ ] Make code modular
+- [x] Make code modular
 
 
 ## Acceptance criteria
 
 - [ ] All user stories must be met
-- [ ] Post must have a User name
-- [ ] Post must have an Avatar
-- [ ] Post must have a Date
-- [ ] Post must have a Message
-- [ ] Post must have an ID
-- [ ] Develop the app using Test Driven Development
+- [x] Post must have a User name
+- [x] Post must have an Avatar
+- [x] Post must have a Date
+- [x] Post must have a Message
+- [x] Post must have an ID
+- [x] Develop the app using Test Driven Development
 - [ ] Learn something new about Node
 - [ ] Learn something new about Express
 
 
 ## Stretch goals
 
-- [ ] Have a separate data structure (Map) store the messages of each user
+- [x] Have a separate data structure (Map) store the messages of each user
 - [ ] Be able to access a dedicated, dynamic path to only display a specific user's messages (using their ID)
+- [ ] Allow user to choose between different avatars
 
 
 
