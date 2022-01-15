@@ -55,3 +55,6 @@ I am building a microblogging app as exercise to learn Node.js and Express.js
 
 - [ ] Have a separate data structure (Map) store the messages of each user
 - [ ] Be able to access a dedicated, dynamic path to only display a specific user's messages (using their ID)
+
+
+
