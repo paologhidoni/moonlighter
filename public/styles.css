@@ -1,20 +1,56 @@
+:root {
+  /* --body-background: #070600; */
+  --body-background: #508CA4;
+  --primary-font-color: #333;
+  --secondary-font-color: #fff;
+
+  --post-header-color: #340068;
+  --post-message-color: #E5D9F2;
+
+  --font-custom: 'Exo 2', sans-serif;
+}
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: var(--font-custom);
+  background-color: var(--body-background);
+  color: var(--body-font-color);
+  font-size: 1.3rem;
+}
+
+label {
+  color: var(--secondary-font-color);  
+}
+
 input, textarea {
   padding: 1rem;
+  color: var(--form-font-color);
+  font-family: var(--font-custom);
+  border: 2px solid var(--post-header-color);
+  border-radius: 5px;
+  background-color: var(--post-message-color);
+  font-size: 1.3rem;
 }
 
 .btn {
   border: none;
   background: none;
-  width: 100px;
   padding: 1rem;
-  font-size: 2rem;
   cursor: pointer;
+  border-radius: 5px;
+}
+
+.post__submit-btn {
+  border: 2px solid var(--post-header-color);
+  background-color: var(--post-message-color);
+  font-size: 1.3rem;
 }
 
 .app-wrapper {
@@ -46,14 +82,16 @@ input, textarea {
 .post__header {
   display: flex;
   justify-content: space-between;
-  background-color: green;
+  background-color: var(--post-header-color);
+  color: var(--secondary-font-color);
   padding: 0.5rem;
+  align-items: center;
 }
 
 .post__user--info {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.8rem;
 }
 
 .post__avatar {
@@ -63,10 +101,20 @@ input, textarea {
 
 .post__user {
   max-width: 200px;
+  font-weight: 300;
+}
+
+.post__time {
+  font-size: 1rem;
 }
 
 .post__message {
   padding: 0.5rem;
+  background-color: var(--post-message-color);
+}
+
+.post__delete-btn {
+  font-size: 1.5rem;
 }
 
 /* UTILITIES */
