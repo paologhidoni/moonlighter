@@ -4,7 +4,101 @@
   padding: 0;
 }
 
-h1 {
-  color: red;
+input, textarea {
+  padding: 1rem;
 }
 
+.btn {
+  border: none;
+  background: none;
+  width: 100px;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.app-wrapper {
+  margin: 2rem 1rem;
+}
+
+.post-add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* POSTS STYLING */
+
+
+.posts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+
+.post {
+  background-color: yellow;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  padding: 0.5rem;
+}
+
+.post__user--info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.post__avatar {
+  width: 50px;
+  height: 50px;;
+}
+
+.post__user {
+  max-width: 200px;
+}
+
+.post__delete-btn {
+  margin-left: 100%;
+}
+
+.post__message {
+  padding: 0.5rem;
+}
+
+/* UTILITIES */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60rem;
+}
+
+.width-md {
+  max-width: 40rem;
+}
+
+.width-sm {
+  max-width: 20rem;
+}
+
+/* Stack */
+
+.stack-lg > * + * {
+  margin-top: 4rem;
+}
+
+.stack-md > * + * {
+  margin-top: 2rem;
+}
+
+.stack-sm > * + * {
+  margin-top: 1.5rem;
+}

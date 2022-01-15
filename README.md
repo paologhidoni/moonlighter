@@ -27,14 +27,9 @@ I am building a microblogging app as exercise to learn Node.js and Express.js
 
 ## Goals / issues
 
-- [ ] Home page to read the posts
+- [X] Home page to read the posts
 - [ ] Functionality to add a post
 - [ ] Functionality to delete a post
-- [ ] Post must have a User name
-- [ ] Post must have an Avatar
-- [ ] Post must have a Date
-- [ ] Post must have a Message
-- [ ] Post must have an ID
 - [ ] Responsive, mobile-first design
 - [ ] 100 Accessibility score on lighthouse
 - [ ] Testing for every route and main features of the blog
@@ -46,6 +41,11 @@ I am building a microblogging app as exercise to learn Node.js and Express.js
 ## Acceptance criteria
 
 - [ ] All user stories must be met
+- [ ] Post must have a User name
+- [ ] Post must have an Avatar
+- [ ] Post must have a Date
+- [ ] Post must have a Message
+- [ ] Post must have an ID
 - [ ] Develop the app using Test Driven Development
 - [ ] Learn something new about Node
 - [ ] Learn something new about Express

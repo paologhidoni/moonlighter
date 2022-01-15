@@ -1,11 +1,11 @@
 'use strict'
 
 const posts = new Map([
-  ["post-UI2456",{ "user": "Paolo", "time": 12, "message": "Kawabonga" }],
+  ["post-UI2425246", { "user": "Paolo",  "message": "Kawabonga", "date": "12/01/22", "time": 18 }],
 
-  ["post-UI2443", { "user": "Michelle", "time": 15, "message": "I am cute!!" }],
+  ["post-UI24434436", { "user": "Michelle",  "message": "cute", "date": "12/01/22", "time": 16 }],
 
-  ["post-UI24788", {"user": "Aaron", "time": 23, "message": "I am furry!!" }]
+  ["post-UI2534356", { "user": "Aaron",  "message": "furry", "date": "12/01/22", "time": 12 }]
 ])
 
 console.log(posts)
