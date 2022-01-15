@@ -25,7 +25,7 @@ const renderPage = (allPosts) => {
         <label for="message">Message</label>
         <textarea rows="5" cols="30" name="message" class="message"></textarea>
 
-        <button type="submit" class="btn post__submit-btn"> ⤴🌔</button>
+        <button type="submit" class="btn post__submit-btn"> Send to🌔</button>
 
       </form>
 

@@ -1,5 +1,8 @@
 'strict'
 
+const xss = require("xss");
+
+
 const renderPosts = (posts) => {
 
   let allPosts = ``;
@@ -20,7 +23,7 @@ const renderPosts = (posts) => {
 
         <form class="post-delete-form" action="/delete-post" method="POST">
 
-          <button class="btn post__delete-btn" type="submit" name="deletePost" value=${postID} aria-label="Click this button to delete this post" >🗑</button>
+          <button class="btn post__delete-btn" type="submit" name="postToDelete" value=${postID} aria-label="Click this button to delete this post" >🗑</button>
 
         </form>
 
@@ -31,7 +34,15 @@ const renderPosts = (posts) => {
     </li>`
   }
 
+  // allPosts = xss(allPosts);
+
   return allPosts;
 }
 
+
 module.exports = renderPosts;
+
+let string = "<p class='post__message'></p>";
+
+string = string.replace(/</g, "&lt:");
+console.log(string)

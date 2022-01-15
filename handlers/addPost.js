@@ -6,7 +6,7 @@ const posts = require("../posts");
 // Require uuid package
 const { v4: uuidv4 } = require("uuid");
 
-const addUser = (req, res) => {
+const addPost = (req, res) => {
 
   const today = new Date();
   const date = today.toLocaleDateString('en-GB');
@@ -23,10 +23,10 @@ const addUser = (req, res) => {
      };
 
   posts.set(uuidv4(), newPost);
-  res.redirect("/");
 
+  res.redirect("/");
 
 }
 
-module.exports = addUser;
+module.exports = addPost;
 

@@ -13,9 +13,10 @@ const posts = require("./posts");
 const bodyParser = express.urlencoded({ extended: false });
 
 // Require handlers
-const addUser = require("./handlers/addUser");
 const renderPage = require("./handlers/renderPage");
 const renderPosts = require("./handlers/renderPosts");
+const addPost = require("./handlers/addPost");
+const deletePost = require("./handlers/delete-post");
 
 
 // HOME PAGE //
@@ -23,11 +24,11 @@ server.get("/", (req, res) => {
   res.send(renderPage(renderPosts(posts)));
 })
 
-// ADD USER //
-server.post("/add-post", bodyParser, addUser);
+// ADD POST //
+server.post("/add-post", bodyParser, addPost);
 
-// DELETE USER //
-
+// DELETE POST //
+server.post("/delete-post", bodyParser, deletePost);
 
 
 
