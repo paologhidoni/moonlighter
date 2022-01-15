@@ -1,0 +1,20 @@
+{
+  "name": "moonlighter",
+  "version": "1.0.0",
+  "description": "I am building a microblogging app as exercise to learn Node.js and Express.js",
+  "main": "funFunctions.js",
+  "scripts": {
+    "test": "cypress open",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
